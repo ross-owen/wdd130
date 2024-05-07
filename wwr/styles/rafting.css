@@ -1,0 +1,130 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary-color: #006d77; 
+    --secondary-color: #e29578; 
+    --accent1-color: #83c5be; 
+    --accent2-color: #ffddd2; 
+    
+    --heading-font: 'Montserrat', serif;
+    --paragraph-font: 'Montserrat', serif;
+    
+    --nav-background-color: #ffffff;
+    --nav-link-color: #006d77;
+    --nav-hover-link-color: #83c5be;
+    --nav-hover-background-color: #edf6f9;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 800px;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    text-align: center;
+}
+
+/* header */
+header {
+    padding: 20px;
+    background-color: var(--accent1-color)
+}
+
+/* logo */
+header img {
+    margin-left: 20px; 
+    width: 100px;
+    height: auto;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+header nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+header nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+header nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+header nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+footer p {
+    text-align: center;
+}
+
+footer nav {
+    background-color: var(--nav-background-color);
+    display: flex;
+    float: right;
+}
+
+footer nav a {
+    padding: 1rem;
+}
+
+footer nav a:hover {
+    background-color: var(--nav-hover-background-color);
+}
+
+section {
+    padding-top: 2rem;
+}
+
+/*  class definitions  */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 0.2;
+}
+
+.hero h1 {
+    position: absolute;
+    width: 100%;
+    top: 10px;
+    margin-top: 10px;
+}
+
+.hero article {
+    position: absolute;
+    top: 40px;
+    padding: 10px;    
+}
+
+.hero article img {
+    float: right;
+    opacity: 1;
+    width: 50px;
+    height: auto;
+    margin: 10px;
+    padding-top: 10px; 
+}
+
+.adventure img {
+    width: 800px;
+    height: auto;
+}
