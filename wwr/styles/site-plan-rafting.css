@@ -60,3 +60,12 @@ nav a:hover {
 p.color-palette span {
     display: block;
 }
+
+.audience {
+    margin-top:-1.5rem;
+    margin-left: 2rem;
+}
+
+.audience li {
+    margin: .5rem .5rem 0 0;
+}
