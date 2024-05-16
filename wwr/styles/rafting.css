@@ -105,7 +105,7 @@ section {
     position: absolute;
     width: 100%;
     top: 10px;
-    margin-top: 10px;
+    margin-top: 0;
 }
 
 .hero article {
@@ -121,6 +121,11 @@ section {
     height: auto;
     margin: 10px;
     padding-top: 10px; 
+}
+
+.hero li {
+    padding-bottom: 5px;
+    font-size: .90em;
 }
 
 .history {
