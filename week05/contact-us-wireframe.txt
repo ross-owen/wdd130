@@ -1,0 +1,43 @@
+﻿+---------------------------------------------------------+
+| [Logo] | Home | About Us | Trips | Contact Us (bold)    |
++---------------------------------------------------------+
+|                                                         |
+| **Company Information**                                 | (Top Left)
+| ------------------------                                |
+| 123 Main Street, Anytown, CA 12345                      |
+| (555) 555-5555 (Main)                                   |
+| (555) 555-5556 (Customer Service)                       |
+| contact@yourcompany.com                                 |
+| [Google Maps Embed (Small)]                             |
+|                                                         |
+| **Employee Profiles**                                   | (Top Right)
+| ------------------------                                |
+| [Box 1] | [Box 2] | [Box 3]                             |
+| (Meet the Team - Optional)                              |
+|                                                         |
+|                                                         |
+| **Contact Form**                                        | (Bottom)
+| ------------------------                                |
+| Name: _______                                           |
+| Email: _______                                          |
+| Inquiry Type:                                           |
+|   * General Inquiry                                     |
+|   * Reservation Question                                |
+|   * Website Suggestion                                  |
+| Message:                                                |
+| --------------------------------------------------------+ (Large Text Box)
+| Subscribe to Newsletter: [ ]                            |
+|                                                         |
+| Submit Button: **Submit**                               |
++---------------------------------------------------------+
+|                                                         |
+| (Footer - include copyright year)                       |
++---------------------------------------------------------+
+
+
+This mock-up uses text boxes (_______) to represent user input 
+fields and brackets [] for optional elements. It also uses 
+dashes (-) to create dividers and asterisks (*) to indicate 
+selected radio buttons.
+
+https://app.moqups.com/eDt4y43BNKMaXKMRu7OelkTg9fkH3Xol/view/page/ad64222d5
