@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>WDD 130 | Basic HTML and CSS Quiz | Ross L. Owen</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+<header>
+    <h1>WDD 130 | Basic HTML and CSS Quiz</h1>
+</header>
+<main>
+    <form>
+        <fieldset>
+            <legend><strong>1. </strong>Contact Information:</legend>
+            <div class="question q-and-a">
+                <label for="q1">Name:</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="question q-and-a">
+                <label for="q1email">Email:</label>
+                <input type="email" id="q1email" name="q1email">
+            </div>
+        </fieldset>
+        
+        <fieldset>
+            <legend><strong>2. </strong>Describe a use for the css property <span>grid-template-columns</span></legend>
+            <div class="question">
+                <textarea id="q2" name="q2" rows="6" placeholder="Enter your answer here..."></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>3. </strong>Match the following HTML elements to their descriptions:</legend>
+            <div class="question q-and-a">
+                <label for="q3">a) <span>&lt;p&gt;</span></label>
+                <select id="q3" name="q3">
+                    <option value="image">Displays an image</option>
+                    <option value="anchor">Creates a hyperlink</option>
+                    <option value="paragraph">Defines a paragraph</option>
+                    <option value="heading">Represents the most important heading</option>
+                </select>
+            </div>
+            <div class="question q-and-a">
+                <label for="q3b">b) <span>&lt;h1&gt;</span></label>
+                <select id="q3b" name="question3b">
+                    <option value="image">Displays an image</option>
+                    <option value="anchor">Creates a hyperlink</option>
+                    <option value="paragraph">Defines a paragraph</option>
+                    <option value="heading">Represents the most important heading</option>
+                </select>
+            </div>
+            <div class="question q-and-a">
+                <label for="q3c">c) <span>&lt;img&gt;</span></label>
+                <select id="q3c" name="q3c">
+                    <option value="image">Displays an image</option>
+                    <option value="anchor">Creates a hyperlink</option>
+                    <option value="paragraph">Defines a paragraph</option>
+                    <option value="heading">Represents the most important heading</option>
+                </select>
+            </div>
+            <div class="question q-and-a">
+                <label for="q3d">d) <span>&lt;a&gt;</span></label>
+                <select id="q3d" name="q3d">
+                    <option value="image">Displays an image</option>
+                    <option value="anchor">Creates a hyperlink</option>
+                    <option value="paragraph">Defines a paragraph</option>
+                    <option value="heading">Represents the most important heading</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>4. </strong>Enter the width in pixels:</legend>
+            <p>A web page has a CSS Rule for the body of <span>width: 800px;</span>. There is also a rule for a
+                division of <span>width: 600px;</span>. An image that has an actual width of <span>1000px</span> is
+                placed within the division tag, what will be the resulting width of the image after the page is
+                rendered?</p>
+            <div class="question q-and-a-2">
+                <label for="q4"><span>&lt;body&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;div&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="..." alt="..."&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/div&gt;<br>&lt;/body&gt;</span></label>
+                <input type="number" min="0" max="1000" id="q4" name="q4" oninput="(validity.valid)||(value='');">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend><strong>5. </strong>What tag is used to display a heading on a webpage?</legend>
+            <div class="question q-and-a-4">
+                <div><input type="radio" id="article" name="q5" value="bold">
+                    <label for="article"><span>&lt;article&gt;</span></label></div>
+                <div><input type="radio" id="divider" name="q5" value="bold">
+                    <label for="divider"><span>&lt;div&gt;</span></label></div>
+                <div><input type="radio" id="heading" name="q5" value="bold">
+                    <label for="heading"><span>&lt;h1&gt;</span></label></div>
+                <div><input type="radio" id="title" name="q5" value="bold">
+                    <label for="title"><span>&lt;title&gt;</span></label></div>
+            </div>
+            <div class="question q-and-a-4">
+                <div><input type="radio" id="anchor" name="q5" value="bold">
+                    <label for="anchor"><span>&lt;a&gt;</span></label></div>
+                <div><input type="radio" id="span" name="q5" value="bold">
+                    <label for="span"><span>&lt;span&gt;</span></label></div>
+                <div><input type="radio" id="label" name="q5" value="bold">
+                    <label for="label"><span>&lt;label&gt;</span></label></div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend><strong>6. </strong>How can you achieve different text appearances using CSS?</legend>
+            <p>(Check all that apply)</p>
+            <div class="question">
+                <div>
+                    <input type="checkbox" id="font" name="q6">
+                    <label for="font"><span>font-family</span> property</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="inline" name="q6">
+                    <label for="inline">Inline styles within the HTML tag</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="decor" name="q6">
+                    <label for="decor"><span>text-decoration</span> property</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="cssfile" name="q6">
+                    <label for="cssfile">A separate <span>.css</span> file linked to the HTML document</label>
+                </div>
+            </div>
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+    </form>
+</main>
+<footer>&copy;2024 Ross L. Owen | Basic HTML and CSS Quiz | WDD 130</footer>
+</body>
+</html>
