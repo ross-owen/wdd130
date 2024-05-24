@@ -209,6 +209,11 @@ button:hover {
     margin-top: -1em;
 }
 
+.contact h1 {
+    font-size: 2em;
+    margin-top: 0;
+}
+
 .contact h2 {
     font-size: 1.2em;
 }
@@ -257,7 +262,7 @@ button:hover {
 .contact-collection {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 1.5em;
+    grid-gap: 2em;
 }
 
 .form-field {
@@ -276,6 +281,11 @@ button:hover {
     margin-top: 0.5rem;
 }
 
+.radio-header {
+    padding-top:0.2rem;
+}
+
 .radio-spacing {
     padding-bottom: 0.5rem;
 }
+

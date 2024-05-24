@@ -53,7 +53,7 @@
     </section>
     <section class="contact-us">
         <form>
-            <h2>Contact Us!</h2>
+            <h1>Contact Us!</h1>
             <div class="contact-collection">
                 <div>
                     <div class="form-field">
@@ -66,11 +66,20 @@
                     </div>
                 </div>
                 <div class="form-field">
-                    <label for="general">Inquiry Type:</label>
+                    <div class="radio-header">Inquiry Type:</div>
                     <div>
-                        <div class="radio-spacing"><input type="radio" id="general" name="inquiry_type">&nbsp;General Inquiry</div>
-                        <div class="radio-spacing"><input type="radio" id="reservation" name="inquiry_type" checked>&nbsp;Reservation Question</div>
-                        <div class="radio-spacing"><input type="radio" id="suggestion" name="inquiry_type">&nbsp;Website Suggestion</div>
+                        <div class="radio-spacing">
+                            <input type="radio" id="general" name="inquiry_type">
+                            <label for="general">General Inquiry</label>
+                        </div>
+                        <div class="radio-spacing">
+                            <input type="radio" id="reservation" name="inquiry_type" checked>
+                            <label for="reservation">Reservation Question</label>
+                        </div>
+                        <div class="radio-spacing">
+                            <input type="radio" id="suggestion" name="inquiry_type">
+                            <label for="suggestion">Website Suggestion</label>
+                        </div>
                     </div>
                 </div>
             </div>
