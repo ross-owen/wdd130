@@ -1,0 +1,45 @@
+﻿+----------------------------------------------------------+
+|                                                          |
+| (Large Banner Image with Rafting Scene)                  |
+|                                                          |
+| (Text Overlay) Unleash Your Adventure:                   |
+| Explore Our Thrilling River Rafting Trips!               |
+|                                                          |
++----------------------------------------------------------+
+| **Trip Descriptions** (3 Sections)                       |
+|                                                          |
+| +----------+       +----------+       +----------+       |
+| |          |       |          |       |          |       |
+| | Img      |       | Img      |       | Img      |       |
+| |          |       |          |       |          |       |
+| |          |       |          |       |          |       |
+| |  **Trip  |       |  **Trip  |       |  **Trip  |       |
+| |  Name    |       |  Name    |       |  Name    |       |
+| |  (Diff)  |       |  (Diff)  |       |  (Diff)  |       |
+| |          |       |          |       |          |       | 
+| | Short    |       | Short    |       | Short    |       |
+| | Desc.    |       | Desc.    |       | Desc.    |       |
+| | (List    |       | (List    |       | (List    |       |
+| | Details) |       | Details) |       | Details) |       |
+| +----------+       +----------+       +----------+       |
+|                                                          |
+| **Call to Action Button**                                |
+|                                                          |
+| (Centered Button) Book Your Adventure Today!             |
+|                                                          |
++----------------------------------------------------------+
+| **Trip Comparison Table**                                |
+|                                                          |
+| +------+-------+---------+------------+-------+--------+ |
+| | Trip | Dur.  | Dist.   | Difficulty | Price | Add'l  | |
+| | Name | (Hrs) | (Miles) | (Level)    |       | Info   | |
+| +------+-------+---------+------------+-------+--------+ |
+| | Trip |       |         |            |       |        | |
+| | A    |       |         |            |       |        | |
+| | Trip |       |         |            |       |        | |
+| | B    |       |         |            |       |        | |
+| | Trip |       |         |            |       |        | |
+| | C    |       |         |            |       |        | |
+| +------+-------+---------+------------+-------+--------+ |
+|                                                          |
++----------------------------------------------------------+
