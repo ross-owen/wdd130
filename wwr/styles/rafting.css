@@ -322,7 +322,7 @@ button:hover {
 .trip-wrapper {    
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 0.5rem;
+    grid-gap: 1rem;
 }
 
 
@@ -354,7 +354,7 @@ button:hover {
 }
 
 .trip li {
-    font-size: 0.8rem;
+    font-size: 0.8rem;4
 }
 
 .book-bar {
@@ -363,12 +363,13 @@ button:hover {
 
 .book-bar button {
     position: absolute;
-    top: -1.25rem;
+    top: 0;
     right: 0;
 }
 
 .doc-style h2 {
     text-align: left;
+    padding-top: 1em;
 }
 
 .doc-style table {
