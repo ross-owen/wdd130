@@ -161,11 +161,11 @@ button:hover {
 
 .hero li {
     padding-bottom: 5px;
-    font-size: .90em;
+    font-size: .90rem;
 }
 
 .history {
-    padding: 1em;
+    padding: 1rem;
     background-color: var(--nav-background-color);
 }
 
@@ -200,28 +200,28 @@ button:hover {
 }
 
 .adventure figure {
-    margin: 1em;
-    font-size: .7em;
+    margin: 1rem;
+    font-size: .7rem;
 }
 
 /* contact us page */
 .contact {
-    margin-top: -1em;
+    margin-top: -1rem;
 }
 
 .contact h1 {
-    font-size: 2em;
+    font-size: 2rem;
     margin-top: 0;
 }
 
 .contact h2 {
-    font-size: 1.2em;
+    font-size: 1.2rem;
 }
 
 .contact-top {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 0.5em;
+    grid-gap: 0.5rem;
 }
 
 .left-box {
@@ -235,7 +235,7 @@ button:hover {
 .reach-us {
     display: grid;
     grid-template-columns: 5fr 4fr;
-    margin: 1em;
+    margin: 1rem;
 }
 
 .experts {
@@ -249,20 +249,20 @@ button:hover {
 }
 
 .experts figure {
-    margin: 0 0.5em 1em 0.5em;
-    font-size: .7em;
+    margin: 0 0.5em 1em 0.5rem;
+    font-size: .7rem;
 }
 
 .contact-us {
-    margin-top: 1em;
-    padding: 1em;
+    margin-top: 1rem;
+    padding: 1rem;
     border: 1px solid var(--primary-color);
 }
 
 .contact-collection {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 2em;
+    grid-gap: 2rem;
 }
 
 .form-field {
@@ -289,3 +289,98 @@ button:hover {
     padding-bottom: 0.5rem;
 }
 
+.hero-trip {
+    position: relative;
+}
+
+.hero-trip img {
+    display: block;
+    width: 100%;
+    height: 150px;
+    opacity: 0.2;
+    object-fit: cover;
+}
+
+.hero-trip h1 {
+    position: absolute;
+    width: 100%;
+    top: 40px;
+    margin-top: 0;
+}
+
+.hero-trip h3 {
+    position: absolute;
+    width: 100%;
+    top: 80px;
+    margin-top: 0;
+}
+
+.trips section h2 {
+    margin-top: -0.5rem;
+}
+
+.trip-wrapper {    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+}
+
+
+.trip {
+    background-color: var(--nav-hover-background-color);
+}
+
+.trip img {
+    width: 100%;
+    height: auto;
+}
+
+.trip figure {
+    margin: 1rem;
+    font-size: 0.8rem;
+}
+
+.trip article, p {
+    padding: 0 1em 0 1rem;
+}
+
+.trip article h5 {
+    margin: -0.2rem 0 0.8rem 0;
+}
+
+.trip p {
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.trip li {
+    font-size: 0.8rem;
+}
+
+.book-bar {
+    position: relative;
+}
+
+.book-bar button {
+    position: absolute;
+    top: -1.25rem;
+    right: 0;
+}
+
+.doc-style h2 {
+    text-align: left;
+}
+
+.doc-style table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.doc-style th, td {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+.doc-style table th {
+    text-align: left;
+}
