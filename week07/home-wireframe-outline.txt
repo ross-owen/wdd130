@@ -1,0 +1,28 @@
+﻿+----------------------------------------------+
+|                                              |
+|  [ Hero Image (Full Width) ]                 |
+|   > Overlaid Heading Message                 | (e.g., "Unleash Your Inner Adventurer...")
+|                                              |
++----------------------------------------------+
+| Grid Container (CSS Grid Layout)             |
+|                                              |
+| +------+ +-------------------+               |
+| |      | | Newsletter Signup |               | (Grid - 1 column)
+| | Name | |-------------------|               |
+| | Email| |  Subscribe Button |               |
+| +------+ +-------------------+               |
+|         |                                    | (Grid - 1 column)
+|         |  Call to Action Button             |
+|         |  (e.g., "Book Now!")               | (Links to trips.html)
+|         |                                    |
++---------+------------------------------------+
+|         |                                    | (Grid - 2 columns)
+|         |  **Left Column**                   |
+|         |  * Image (Scenic Location)         |
+|         |  * Content Block (Website Purpose) |
+|         |                                    |
+|         |  **Right Column**                  |
+|         |  * Image (Rafting Experience)      |
+|         |  * Content Block (Offerings)       |
+|         |                                    |
++---------+------------------------------------+
