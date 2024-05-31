@@ -17,13 +17,13 @@
 }
 
 body {
-    font-family: var(--paragraph-font);
+    font-family: var(--paragraph-font), serif;
     max-width: 800px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--heading-font);
+    font-family: var(--heading-font), serif;
     color: var(--primary-color);
     text-align: center;
 }
@@ -367,6 +367,10 @@ button:hover {
     right: 0;
 }
 
+.trip-main {
+    padding-top: 0;
+}
+
 .doc-style h2 {
     text-align: left;
     padding-top: 1em;
@@ -384,4 +388,89 @@ button:hover {
 
 .doc-style table th {
     text-align: left;
+}
+
+.unleash-the-hero {
+    position: relative;
+}
+
+.unleash-the-hero img {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.unleash-the-hero h1 {
+    position: absolute;
+    top: 310px;
+    width: 100%;
+    color: var(--accent2-color);
+    text-shadow: 1px 1px 2px var(--primary-color);
+}
+
+.unleash-the-hero a, a:hover, a:visited {
+    text-decoration: none;
+}
+
+.home-booking {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.5rem;
+    padding-top: 2rem;
+}
+
+.home-booking figure {
+    margin: 0;
+    font-size: 0.8rem;
+}
+
+.home-booking img {
+    width: 100%;
+}
+
+.newsletter {
+    border: 1px solid var(--primary-color);
+    padding: 0 1rem 0 1rem;
+}
+
+.newsletter-form {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 1rem;
+    padding: 0.3rem 0 0.3rem 0;
+}
+
+.newsletter-form label {
+    align-self: center;
+}
+
+.newsletter-form input {
+    width: 138px;
+}
+
+.newsletter-form button {
+    grid-column-start: 2;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.book-now {
+    position: relative;
+    display: grid;
+}
+
+.book-now h3 {
+    position: absolute;
+    color: var(--accent2-color);
+    text-shadow: 1px 1px 2px var(--primary-color);
+    width: 100%;
+    top: 10px;
+}
+
+.book-now button {
+    position: absolute;
+    justify-self: center;
+    width: 50%;
+    top: 60px;
 }
