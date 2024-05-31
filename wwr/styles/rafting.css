@@ -111,7 +111,7 @@ input[type="checkbox"], input[type="radio"] {
 button {
     margin: 1rem auto 0;
     padding: 0.5rem;
-    font-family: Arial;
+    font-family: Arial, serif;
     font-size: 1rem;
     color: var(--subtle-color);
     background-color: var(--primary-color);
@@ -123,6 +123,11 @@ button {
 button:hover {
     color: var(--primary-color);
     background-color: var(--subtle-color);
+}
+
+li {
+    padding-bottom: 5px;
+    font-size: .90rem;
 }
 
 /*  class definitions  */
@@ -157,11 +162,6 @@ button:hover {
     height: auto;
     margin: 10px;
     padding-top: 10px; 
-}
-
-.hero li {
-    padding-bottom: 5px;
-    font-size: .90rem;
 }
 
 .history {
@@ -289,6 +289,8 @@ button:hover {
     padding-bottom: 0.5rem;
 }
 
+/* trip page */
+
 .hero-trip {
     position: relative;
 }
@@ -325,7 +327,6 @@ button:hover {
     grid-gap: 1rem;
 }
 
-
 .trip {
     background-color: var(--nav-hover-background-color);
 }
@@ -351,10 +352,6 @@ button:hover {
 .trip p {
     font-style: italic;
     font-size: 0.9rem;
-}
-
-.trip li {
-    font-size: 0.8rem;
 }
 
 .book-bar {
@@ -390,6 +387,7 @@ button:hover {
     text-align: left;
 }
 
+/* home page */
 .unleash-the-hero {
     position: relative;
 }
@@ -407,10 +405,6 @@ button:hover {
     width: 100%;
     color: var(--accent2-color);
     text-shadow: 1px 1px 2px var(--primary-color);
-}
-
-.unleash-the-hero a, a:hover, a:visited {
-    text-decoration: none;
 }
 
 .home-booking {
