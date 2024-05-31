@@ -474,3 +474,8 @@ button:hover {
     width: 50%;
     top: 60px;
 }
+
+.selected {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
